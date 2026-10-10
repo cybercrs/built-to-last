@@ -1,0 +1,14 @@
+F401 [*] `built_to_last.case_data.DEPRECIATION_FACTS` imported but unused
+  --> streamlit_app.py:17:5
+   |
+15 |     CHOICE_HINTS,
+16 |     COMPANY_NAME,
+17 |     DEPRECIATION_FACTS,
+   |     ^^^^^^^^^^^^^^^^^^
+18 |     DEPRECIATION_FIELDS,
+19 |     DEPRECIATION_QUESTIONS,
+   |
+help: Remove unused import: `built_to_last.case_data.DEPRECIATION_FACTS`
+
+Found 1 error.
+[*] 1 fixable with the `--fix` option.

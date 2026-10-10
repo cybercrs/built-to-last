@@ -1,0 +1,40 @@
+test_complete_case_reaches_debrief (test_app_flow.PerfectAssetLifecycleFlowTests.test_complete_case_reaches_debrief) ... 2026-10-10 15:55:50.013 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_wrong_choice_can_be_revised_without_an_extra_unlock_click (test_app_flow.PerfectAssetLifecycleFlowTests.test_wrong_choice_can_be_revised_without_an_extra_unlock_click) ... 2026-10-10 15:55:55.152 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_complete_case_reaches_debrief (test_browser_flow.PerfectAssetLifecycleFlowTests.test_complete_case_reaches_debrief) ... 2026-10-10 15:55:55.798 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_wrong_choice_can_be_revised_without_an_extra_unlock_click (test_browser_flow.PerfectAssetLifecycleFlowTests.test_wrong_choice_can_be_revised_without_an_extra_unlock_click) ... 2026-10-10 15:55:58.048 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_navigation_and_advance_reject_locked_future_and_review_mutation (test_browser_navigation.BrowserNavigationTests.test_navigation_and_advance_reject_locked_future_and_review_mutation) ... 2026-10-10 15:55:58.342 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_review_preserves_earned_progress_and_current_draft (test_browser_navigation.BrowserNavigationTests.test_review_preserves_earned_progress_and_current_draft) ... 2026-10-10 15:55:58.457 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-10 15:55:58.838 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-10 15:55:58.997 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-10-10 15:55:59.093 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_acquisition_and_later_expenditure_totals (test_engine.AssetLifecycleCalculationTests.test_acquisition_and_later_expenditure_totals) ... ok
+test_analysis_relationship (test_engine.AssetLifecycleCalculationTests.test_analysis_relationship) ... ok
+test_currency_format (test_engine.AssetLifecycleCalculationTests.test_currency_format) ... ok
+test_depreciation_balances (test_engine.AssetLifecycleCalculationTests.test_depreciation_balances) ... ok
+test_disposal_balances_and_loss (test_engine.AssetLifecycleCalculationTests.test_disposal_balances_and_loss) ... ok
+test_every_choice_has_feedback_and_account_statement_connections (test_engine.AssetLifecycleCalculationTests.test_every_choice_has_feedback_and_account_statement_connections) ... ok
+test_numeric_fields_match_the_calculation_engines (test_engine.AssetLifecycleCalculationTests.test_numeric_fields_match_the_calculation_engines) ... ok
+test_student_case_language_uses_course_level_reasoning (test_engine.AssetLifecycleCalculationTests.test_student_case_language_uses_course_level_reasoning) ... ok
+test_answer_shuffle_is_repeatable_and_changes_the_default_order (test_progress.ProgressSnapshotTests.test_answer_shuffle_is_repeatable_and_changes_the_default_order) ... ok
+test_current_incorrect_choice_can_be_restored_for_revision (test_progress.ProgressSnapshotTests.test_current_incorrect_choice_can_be_restored_for_revision) ... ok
+test_future_calculation_is_rejected (test_progress.ProgressSnapshotTests.test_future_calculation_is_rejected) ... ok
+test_incorrect_completed_calculation_is_rejected (test_progress.ProgressSnapshotTests.test_incorrect_completed_calculation_is_rejected) ... ok
+test_malformed_or_oversized_tokens_are_rejected (test_progress.ProgressSnapshotTests.test_malformed_or_oversized_tokens_are_rejected) ... ok
+test_removed_disposal_decision_does_not_erase_completed_progress (test_progress.ProgressSnapshotTests.test_removed_disposal_decision_does_not_erase_completed_progress) ... ok
+test_removed_disposal_decision_moves_active_student_to_intangibles (test_progress.ProgressSnapshotTests.test_removed_disposal_decision_moves_active_student_to_intangibles) ... ok
+test_restore_and_reset (test_progress.ProgressSnapshotTests.test_restore_and_reset) ... ok
+test_round_trip_completed_progress (test_progress.ProgressSnapshotTests.test_round_trip_completed_progress) ... ok
+test_score_summary_tracks_first_pass_and_revisions (test_progress.ProgressSnapshotTests.test_score_summary_tracks_first_pass_and_revisions) ... ok
+test_skipping_required_stages_is_rejected (test_progress.ProgressSnapshotTests.test_skipping_required_stages_is_rejected) ... ok
+test_unsubmitted_choice_and_numeric_drafts_round_trip (test_progress.ProgressSnapshotTests.test_unsubmitted_choice_and_numeric_drafts_round_trip) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 9.229s
+
+OK
