@@ -1,0 +1,24 @@
+{
+  "title": "Built to Last?",
+  "public_directory": "js/",
+  "runtime_dependencies": [],
+  "files_sha256": {
+    "index.html": "f795a1521be22464f387eeca1665539c279c594ac5aa8638e8cd42d3661092fc",
+    "original.css": "04a817f32443c133ca0adcb0d8ac304859f1e288f46ab34401e814dbdd3ee546",
+    "style.css": "b64d0d5c4a465eb400137246e8292319be1d8f358aef4ee3fc59b58ef9109760",
+    "content.js": "b210d23af86bdddcbd8317d94f1cbf9a9d9faf5d7a4cb6e435d884164a191a3b",
+    "common.js": "2ced56a634e9eef0a2cb26444aa2ca0e4b6063fb849b47e8e4c8333e0182c317",
+    "engine.js": "aadc8cce1ad1161e90f26019bd2b3c0464abde34c552a7ee3ad3dd6159d98958",
+    "app.js": "421f9b2510cf4bda3190a5ada3df9b7747e8727945519095ec9e3a375e63a702"
+  },
+  "files_bytes": {
+    "index.html": 1953,
+    "original.css": 6898,
+    "style.css": 6520,
+    "content.js": 233621,
+    "common.js": 5555,
+    "engine.js": 11142,
+    "app.js": 16970
+  },
+  "application_bytes": 282659
+}

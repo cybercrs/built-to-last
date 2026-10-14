@@ -1,0 +1,8 @@
+{
+  "repository": "cybercrs/built-to-last",
+  "source_branch": "native/javascript",
+  "source_commit": "5d927e949b6f47861a02021b56c54ff2acd4fb49",
+  "public_directory": "js/",
+  "publication_status": "final student-facing JavaScript app",
+  "previous_static_commit": "1b6d9dcf66c520c2e0c541fbcb9190a2a529b391"
+}
