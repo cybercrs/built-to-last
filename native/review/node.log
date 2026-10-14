@@ -1,0 +1,15 @@
+✔ Asset balances, partial-year depreciation, sale and ratios match independent Python outcomes (0.972042ms)
+✔ All original shuffle orders match exactly including 63-bit seeds (13.427519ms)
+✔ Old snapshots, choice/numeric drafts and both retired-disposal migrations match Python (27.184564ms)
+✔ Invalid saved state and reasoning before calculation gates cannot unlock content (3.252631ms)
+✔ Complete lifecycle preserves all repeated numeric attempts and separate reasoning validations (5.961043ms)
+✔ View limits, units, numeric bounds and practice overflow retain original semantics (1.648919ms)
+✔ Final titles and every generated teaching variant contain no provisional app branding (1.892546ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 101.759784

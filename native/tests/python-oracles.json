@@ -1,0 +1,2456 @@
+{
+  "calculations": {
+    "acquisition": {
+      "Land": 191000,
+      "Land Improvements": 36000,
+      "Building": 420000,
+      "Equipment": 94000,
+      "Current-period expense": 3000,
+      "Capitalized plant assets": 741000
+    },
+    "lifecycle": {
+      "Land": 191000,
+      "Land Improvements": 36000,
+      "Building": 510000,
+      "Equipment": 112000,
+      "Capitalized plant assets": 849000,
+      "Current-period expense": 10200
+    },
+    "depreciationSchedule": [
+      {
+        "Year": 2028,
+        "Depreciation Expense": "$6,750",
+        "Accumulated Depreciation": "$6,750",
+        "Ending Book Value": "$43,250"
+      },
+      {
+        "Year": 2029,
+        "Depreciation Expense": "$9,000",
+        "Accumulated Depreciation": "$15,750",
+        "Ending Book Value": "$34,250"
+      },
+      {
+        "Year": 2030,
+        "Depreciation Expense": "$9,000",
+        "Accumulated Depreciation": "$24,750",
+        "Ending Book Value": "$25,250"
+      }
+    ],
+    "expected": {
+      "depreciation": {
+        "depreciable_cost": 45000,
+        "annual_depreciation": 9000,
+        "first_year_expense": 6750,
+        "accumulated_depreciation": 24750,
+        "book_value": 25250
+      },
+      "disposal": {
+        "current_year_depreciation": 4500,
+        "accumulated_depreciation": 29250,
+        "book_value": 20750,
+        "loss_on_sale": 2750
+      },
+      "analysis": {
+        "profit_margin": 8.0,
+        "asset_turnover": 1.5,
+        "return_on_assets": 12.0
+      }
+    }
+  },
+  "snapshots": [
+    {
+      "token": "eNqVjkEOAyEIRe_CehZNupvbUHUaUuNY0cZ2MncvFRLXXcGHx_8cgATrZQEssB6n1KrVeamA7tmIqdKebJ0wvplYlQ-5BEc4954474xRFaWK6U63GFS3_Agh__qBjmBvwV48N4wcpH3paMtmoyQZmfS1Pz4RWdSjmEeZacXSeABNuWac7K4LdB12G_Z53O34I8D5Ba-gays",
+      "payload": {
+        "v": 3,
+        "s": 0,
+        "z": 0,
+        "cd": {
+          "acquisition": {},
+          "upkeep": {},
+          "depreciation": {},
+          "disposal": {},
+          "intangible": {},
+          "analysis": {}
+        },
+        "nd": {
+          "depreciation": {},
+          "disposal": {},
+          "analysis": {}
+        },
+        "ai": 0,
+        "ar": {},
+        "ui": 0,
+        "ur": {},
+        "dv": {},
+        "ds": false,
+        "di": 0,
+        "dr": {},
+        "xv": {},
+        "xs": false,
+        "xi": 0,
+        "xr": {},
+        "ii": 0,
+        "ir": {},
+        "rv": {},
+        "rs": false,
+        "ri": 0,
+        "rr": {},
+        "at": {},
+        "fp": {}
+      },
+      "seed": "0"
+    },
+    {
+      "token": "eNqVTz1PAzEM_StRxHjDIQTDdWRl6MCO3MQtFlEu2HdVjqr_vb460iE2pvg9vw_n4oH80Hce2A8XLzThR0ijUD75wb9Bjo5yYARBcQ8vXd_3O_cK8uki_qX3PBbkaXHvUJXewwKHhL_9z6vQX7Vt0jZ9Q1xbIXzPpNU0ZqMhQ1qExFDEwhgItn0kKaNAMkR5gnwi7TI8ly_Ess536f17kZtTM4-QBHU8G3UsLcaU1JTZTvvHJQrZMrhl8NbGrU2ZRz3RdHPT6e6p89XI2si6mWsz_6jgegM7Oow3",
+      "payload": {
+        "v": 3,
+        "s": 1,
+        "z": 0,
+        "cd": {
+          "acquisition": {},
+          "upkeep": {},
+          "depreciation": {},
+          "disposal": {},
+          "intangible": {},
+          "analysis": {}
+        },
+        "nd": {
+          "depreciation": {},
+          "disposal": {},
+          "analysis": {}
+        },
+        "ai": 0,
+        "ar": {
+          "site_closing": "Land increases $6,000; Cash decreases $6,000; Property Taxes Payable increases $5,000"
+        },
+        "ui": 0,
+        "ur": {},
+        "dv": {},
+        "ds": false,
+        "di": 0,
+        "dr": {},
+        "xv": {},
+        "xs": false,
+        "xi": 0,
+        "xr": {},
+        "ii": 0,
+        "ir": {},
+        "rv": {},
+        "rs": false,
+        "ri": 0,
+        "rr": {},
+        "at": {},
+        "fp": {}
+      },
+      "seed": "0"
+    },
+    {
+      "token": "eNqVUrtuwzAM_BVByOgh6QuoOxYdAnTIkN1gbTohosiqSBtOg_x7qUhosnaSeDrdnc86WyBbP1YWoq3PFr9HCkf00kSE7mRru3h9qpbLZW1CpBYrw-CQjcBcmT4i7fZSGfIs4BwIDb4y4DsjyEJ-ZysbIB5017hBVO0zHa6PIQ4TJhtWBpNg07qB04VCId9qAFanxWqV_N_MO_DedPiHv2R4E4eAUU5mC7PCGzjBl8N7gedETD4Cfd9IBPLZaV04Zlsw8zEH9Iz2on1o3LOubZd6gVaL0aD6gRkGD-7ExHnqMERsCW7nHXEYtKs8kRfwO9JgeR7DATGk_ZVq66UusdxUzR4co26nDPWhyGQmFabP0f6RRMeYNWLRiDe3WNwUedCImTden8UEvpHR4xjua5M9moj627EzwYEXA8woqb3p-qbmrDEXr_nmNRevHyVcfgEulNXZ",
+      "payload": {
+        "v": 3,
+        "s": 2,
+        "z": 0,
+        "cd": {
+          "acquisition": {},
+          "upkeep": {},
+          "depreciation": {},
+          "disposal": {},
+          "intangible": {},
+          "analysis": {}
+        },
+        "nd": {
+          "depreciation": {},
+          "disposal": {},
+          "analysis": {}
+        },
+        "ai": 3,
+        "ar": {
+          "site_closing": "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+          "parking_lot": "Land Improvements",
+          "equipment_ready": "$94,000: price, sales tax, freight, installation, and testing",
+          "staff_training": "Increase Training Expense"
+        },
+        "ui": 0,
+        "ur": {
+          "van_tuneup": "Increase the related plant asset"
+        },
+        "dv": {},
+        "ds": false,
+        "di": 0,
+        "dr": {},
+        "xv": {},
+        "xs": false,
+        "xi": 0,
+        "xr": {},
+        "ii": 0,
+        "ir": {},
+        "rv": {},
+        "rs": false,
+        "ri": 0,
+        "rr": {},
+        "at": {},
+        "fp": {}
+      },
+      "seed": "0"
+    },
+    {
+      "token": "eNqVk8Fu2zAMhl9FEHr0gDRLOtS7bdihwA499C4wMp0IkSWNkjx7Qd99lOWs2U7dySL1SyS_X75IMLL92Egg2V4k_sgmDOiSIoRulq28e9w1m82mFYGMxkZEsBhFgqkRPaE5nlIjjIsJrIVkvGsEuE4kjMm4o2xkADrzSlmf-LbvZfNpCORHLGUiK6JJqLT1sRxYJcZpbiBypbv7-1L_s_gK8SQ6_JN_qOln8gEpzeIFJk4_wwwHi7cX7Iuw1EnQ9yoRGFcrPa0a8bLmxLcpoIsoX5kHt3vhr-4KF9AMhhvlAWsaHNg5mlijDgOhNvC235kYPLOqkXEJ3NFwYzXO4YwYynqRynbDn8UAxuj1co9yPqkRbOYz8ov3Z7EEgrC3qFMUugCJmARE06HoPQng3WBBL2wb8fNkGEU6IXNj20gUVwZgc1gZ0doy8-JrmbjjYRJl5NVYZ9Z5yOwqdurvAbe7T_tNYeAy2H_2Hhl2Iw_c77X57X5b1FcZQ1DaR8a72y_a3lBMakYghSv_9oELcEt9WPlVRIZq6Kon_2EBh1TvoPUO4nM92Mjj0lhTcfkRcv0f8mLHIRvblecb-IWk2zejMxFD_sCPz_hOXDvnB2PNcChH4hwTDrdnihOEC1HBNrliHRtY_5I0K_L-nfoRnErZYQ7v6IlHG5eZpopgWhFMbwimFcEvFrz-BsmsZOo",
+      "payload": {
+        "v": 3,
+        "s": 3,
+        "z": 0,
+        "cd": {
+          "acquisition": {},
+          "upkeep": {},
+          "depreciation": {},
+          "disposal": {},
+          "intangible": {},
+          "analysis": {}
+        },
+        "nd": {
+          "depreciation": {},
+          "disposal": {},
+          "analysis": {}
+        },
+        "ai": 3,
+        "ar": {
+          "site_closing": "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+          "parking_lot": "Land Improvements",
+          "equipment_ready": "$94,000: price, sales tax, freight, installation, and testing",
+          "staff_training": "Increase Training Expense"
+        },
+        "ui": 3,
+        "ur": {
+          "van_tuneup": "Increase current-period expense",
+          "climbing_system": "Increase the related plant asset",
+          "building_paint": "Increase current-period expense",
+          "party_room": "Increase the related plant asset"
+        },
+        "dv": {
+          "depreciable_cost": 45000,
+          "annual_depreciation": 9000,
+          "first_year_expense": 6750,
+          "accumulated_depreciation": 24750,
+          "book_value": 25250
+        },
+        "ds": true,
+        "di": 0,
+        "dr": {
+          "allocation_not_value": "Book value reflects cash set aside for a replacement, while the dealer estimates a selling price"
+        },
+        "xv": {},
+        "xs": false,
+        "xi": 0,
+        "xr": {},
+        "ii": 0,
+        "ir": {},
+        "rv": {},
+        "rs": false,
+        "ri": 0,
+        "rr": {},
+        "at": {},
+        "fp": {}
+      },
+      "seed": "0"
+    },
+    {
+      "token": "eNqVVMtu2zAQ_BVCyFEFXNdOEfvU1yFADznkTqyllU2EIlmScqUG-fcOSdmx20PTk8jlLnd2ZqjnilS1-VBX5KvNc8U_BuV6NlF6pnaqNtXN3apeLBYb4bxquBaBNAcRaaxF51ntD7EWyoRIWlNU1tSCTCsih6jMvqorR_4JK6ltxG3f0-F977w9cmoTkBFUZNloG1LBnKJMAwABnW7ev0_9t-ILhYNo-Ry_LeEHbx37OIlHGhF-oIl2mi8vWKfE1CdS18noSZnS6X7OEY9zTHwbHZvA1Qv4ANxnfJs28UINiAFQDFjCZEhPQYWya9l5bhS9nrcqOAuuyk6ZSGavAKzsB_fE7NI6p1abJT5ZANBom3yPNDbKI-kBNdVna59E3gjPneYmBjGncisOKkQLeUiLxgYI8vOgwEE8MAiDXl4kOXrkokoE1joNmwWt0ihmIC2569K1aPb1YpoTJa-EbsWnphn6QefWV7kXOYZj2tqeix8sDCIoBAbwk4jorXEoeWzYFepeexf4u0HpFmC3QjMdWWRzUPxz4iRYC-jRD4zVsUh2Rimv9VmuPq4X57mvz-7glbrage4T98v1MmWf0qChzC03q3XO7ZQPUU5MHoMU-2xu0QCQOjfLD4WRqXzZmmKp_3AQtr7c4ec7POo60gHj-mMJIbKCtcpzHrKbTvRJB4PHS8s3g_d4f-_wdpRtxQk5_K5Vv0slYQqR-8uaJIjnoruDcrEIWh55nKS39o35RzIyDoYH9wZMGO2YZxoLBWMeLf2HIESP1ipk6zyi3Q2kgioC3tgrM7ujeCcUQxGANCzCgTluryBeSiDws5iCwOKvooRnPHtt_JfX7rJ7rgy1yPabpy3OuS5KzsLbsCFI_AfSpKgqlvoFCl5-A0ny-iI",
+      "payload": {
+        "v": 3,
+        "s": 4,
+        "z": 0,
+        "cd": {
+          "acquisition": {},
+          "upkeep": {},
+          "depreciation": {},
+          "disposal": {},
+          "intangible": {},
+          "analysis": {}
+        },
+        "nd": {
+          "depreciation": {},
+          "disposal": {},
+          "analysis": {}
+        },
+        "ai": 3,
+        "ar": {
+          "site_closing": "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+          "parking_lot": "Land Improvements",
+          "equipment_ready": "$94,000: price, sales tax, freight, installation, and testing",
+          "staff_training": "Increase Training Expense"
+        },
+        "ui": 3,
+        "ur": {
+          "van_tuneup": "Increase current-period expense",
+          "climbing_system": "Increase the related plant asset",
+          "building_paint": "Increase current-period expense",
+          "party_room": "Increase the related plant asset"
+        },
+        "dv": {
+          "depreciable_cost": 45000,
+          "annual_depreciation": 9000,
+          "first_year_expense": 6750,
+          "accumulated_depreciation": 24750,
+          "book_value": 25250
+        },
+        "ds": true,
+        "di": 2,
+        "dr": {
+          "allocation_not_value": "Book value reflects allocated historical cost, while the dealer estimates a selling price",
+          "annual_effects": "Depreciation Expense increases; Accumulated Depreciation increases; net income and total assets decrease",
+          "land_exception": "Depreciate the building; leave Land at historical cost"
+        },
+        "xv": {
+          "current_year_depreciation": 4500,
+          "accumulated_depreciation": 29250,
+          "book_value": 20750,
+          "loss_on_sale": 2750
+        },
+        "xs": true,
+        "xi": 0,
+        "xr": {
+          "sale_comparison": "The $50,000 original cost leaves the balance sheet; the related depreciation stays on the balance sheet"
+        },
+        "ii": 0,
+        "ir": {},
+        "rv": {},
+        "rs": false,
+        "ri": 0,
+        "rr": {},
+        "at": {},
+        "fp": {}
+      },
+      "seed": "0"
+    },
+    {
+      "token": "eNqVVE1v2zAM_SuC0aMHpFnTrclpHz0U6KGH3g1GphOhsqRJcpas6H_fk2TnY8Cw7mSLIkU-vke-VqSq5ce6Il8tXyv-MSjXs4mNZ2oP1bK6urupZ7PZUjivJNcikOYgIu1r0XlWm22shTIhktYUlTW1INOKyCEqs6nqypF_wV-jbcRrj-nyoXfe7jilCfAIKnIjtQ0pYHRRRqKAgExX19cp_0p8o7AVLR_tt8X85K1jHw_imfYwP9GB1prPH1gkx5QnUtc10ZMyJdPD6COeR5u43zs2gas39APlvuIr29QXkmgMCgXAYiZD-hBUKKeWnWep6HTfquAselVOykQyG4XCynlwL8wu_WfXajnHJxOANlqZ32mMjc2O9ICY6qu1LyIfhOdOs4xBjK7ciq0K0YIe0kLaAEJ-bhV6ELeMhoEvLxIdPXwRJQJrncBmQqsExQykG-669CySfT9DM7Xk1NCV-CLl0A86p77wPfMxHNPR9lz0YCEQQSEwCp9IRG6Ny4b3kl1p3Sl3KX89KN2i2JXQTDsWWRwU_0ScCGtRevQD429XKDtW2VzyM7_5tJgdcV_e3UErdbVGu6fezxfz5D25gcMmp1zeLLJvp3yIzYHJA0iRz_IWCVBS50b6wTA8VWbYoSLMV8td8a0eM7KnbE7Yrm5nSbHifA6EHLxP95o3wDwmwnDMs7iRwxSd_ocscfSlMO_LrUdcRzqgh35XTLAsoNeyI4YMYOKkcZiaeD5HY5EfMJDKtlOVoFlq1a9TSDiEyP15TGLZcxGTgxxiUUnZHPHQeGvf6b8j08TB8ODeUROg7TKmPaBd45OheY7K58WEJ-6nXZiZmHL-VfxM8rSfxNV8VvaTsWKDPgnrBVZc3neUJdQDnwpZ9M_bEgDVYMhN0XooA0DAKFmELXNcgfDPWRt5GXpGAyQcU6eE7YTCcK2PmyJh3B-HYv-vobjLMr9Q_izPydjBIvHLoDQCGGLgarCwEjBEFe3_grLefgOwlzCf",
+      "payload": {
+        "v": 3,
+        "s": 5,
+        "z": 0,
+        "cd": {
+          "acquisition": {},
+          "upkeep": {},
+          "depreciation": {},
+          "disposal": {},
+          "intangible": {},
+          "analysis": {}
+        },
+        "nd": {
+          "depreciation": {},
+          "disposal": {},
+          "analysis": {}
+        },
+        "ai": 3,
+        "ar": {
+          "site_closing": "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+          "parking_lot": "Land Improvements",
+          "equipment_ready": "$94,000: price, sales tax, freight, installation, and testing",
+          "staff_training": "Increase Training Expense"
+        },
+        "ui": 3,
+        "ur": {
+          "van_tuneup": "Increase current-period expense",
+          "climbing_system": "Increase the related plant asset",
+          "building_paint": "Increase current-period expense",
+          "party_room": "Increase the related plant asset"
+        },
+        "dv": {
+          "depreciable_cost": 45000,
+          "annual_depreciation": 9000,
+          "first_year_expense": 6750,
+          "accumulated_depreciation": 24750,
+          "book_value": 25250
+        },
+        "ds": true,
+        "di": 2,
+        "dr": {
+          "allocation_not_value": "Book value reflects allocated historical cost, while the dealer estimates a selling price",
+          "annual_effects": "Depreciation Expense increases; Accumulated Depreciation increases; net income and total assets decrease",
+          "land_exception": "Depreciate the building; leave Land at historical cost"
+        },
+        "xv": {
+          "current_year_depreciation": 4500,
+          "accumulated_depreciation": 29250,
+          "book_value": 20750,
+          "loss_on_sale": 2750
+        },
+        "xs": true,
+        "xi": 1,
+        "xr": {
+          "sale_comparison": "The $20,750 van leaves the balance sheet; $18,000 Cash replaces part of its book value",
+          "retirement": "Equipment and related Accumulated Depreciation each decrease $20,000; no gain or loss"
+        },
+        "ii": 0,
+        "ir": {
+          "patent_defense": "Leave Patent at $60,000 and increase current legal expense $12,000"
+        },
+        "rv": {},
+        "rs": false,
+        "ri": 0,
+        "rr": {},
+        "at": {},
+        "fp": {}
+      },
+      "seed": "0"
+    },
+    {
+      "token": "eNqVVcFu3DYQ_RVC8FE21huvE69PbZIWAXowWt8FLjVaEaZIhaTWqxj5974hpV1t0KLpSSI5nHkzb-bxrZC62L4rC-mL7VtBXwfdd2Rj5UnWY7Etrh7uytVqtRW914pKEaShIKI8lqLxpPdtLIW2IUpjZNTOlkLaWkQKUdt9URa99C_4q4yL8PYHH37peu8OxGECLIKOVCnjAl-YTLRVABAQ6er2luM_io8ytKKm0_593n7yricfR_Esj9h-kqPcGVo62LAhx4myaaropbY50pfJRjxPe-LzsScbqPiOegDuG76q5rpIhcIAKBLM29JKMwYd8qqm3pPS8nxe69A71CqvtI3S7jWA5fXQvxD1_J9Mi-0an0QAyuhU8lNZF6uDNAPuFL869yLSQnhqDKkYxGRKtWh1iA70SCOUCyDktdWoQWwJBQNfXjAdHWxxSwQyhpNNhBacih2kqahp2C2CfVpkM5fkXNBH8YtSQzeYFPrCdmFjKfLSdZT7waFBhAyBAHwmEbENDis6Kupz6c6xM_zdoE0NsI_CkDyQSM0h448ZM2E1oEc_EP4OmbITyuqSn_Xd-83qlPfl2QN6pSx2KPdc-_VmzdazGTisUsjt3SbZNtqHWI0kPRLJ7bO9RwBAavqJfjB8j09iWLl-9Dw3yw78OG-masnO-ai_oehRYFBAXzriGDwwjZdWoQJUTSk0REtnPBCSx09MgETjfCqnGrzH1CVPF476wauWKVm4-W0-_WdMkewJ0d65-lUbs7z--7SXbtdOoJ2FdwNwkRmX7pJIRNacmppcv7OXp3SC_hFX79c8yGJHyIYEE-tnN5m8svAUgEi18HQg45KSLb39OZ0nTJ_ONqfBLwvoQ00dROsHgciby2SWKYBkm4Xif-gClh6dgR7yqTN6hg-lmEbhr9a98riCSAyzcXZ_bfSB6utpjKaZAiDQbKBgieJOH4Vr5lGbNgGXAoP0pyHxeUjYrIqDt8xpsb292YAN7xodK-S71wDy4YYREhtVkKXsGabrG-7xkFp7yI_IkPKYh7bqAeqi_lP_XaNBtavn9kTVldHdjq-EMUTqlncYv6esNkgTZCUE-WmJY-Wd-0n7g7RI1dLQ_wQmpHZIOR2R2i0-KTWUQXua2urz_FgmEuaY_6qOJNX5ARNX61V-wKwTeyYPI4o3MD2IMmlMh_x0SK3w3OYLkBW8AjaLYcgKKZGjIhFaoviI5_JDmpL0WnpCARQMuVLcFRotsTs9JZzj8dQQx_9SzYekgxfSuEpCOlUwa-DlJdZIqDzy4tbhxHAri-M3dP73vwE2SveA",
+      "payload": {
+        "v": 3,
+        "s": 6,
+        "z": 0,
+        "cd": {
+          "acquisition": {},
+          "upkeep": {},
+          "depreciation": {},
+          "disposal": {},
+          "intangible": {},
+          "analysis": {}
+        },
+        "nd": {
+          "depreciation": {},
+          "disposal": {},
+          "analysis": {}
+        },
+        "ai": 3,
+        "ar": {
+          "site_closing": "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+          "parking_lot": "Land Improvements",
+          "equipment_ready": "$94,000: price, sales tax, freight, installation, and testing",
+          "staff_training": "Increase Training Expense"
+        },
+        "ui": 3,
+        "ur": {
+          "van_tuneup": "Increase current-period expense",
+          "climbing_system": "Increase the related plant asset",
+          "building_paint": "Increase current-period expense",
+          "party_room": "Increase the related plant asset"
+        },
+        "dv": {
+          "depreciable_cost": 45000,
+          "annual_depreciation": 9000,
+          "first_year_expense": 6750,
+          "accumulated_depreciation": 24750,
+          "book_value": 25250
+        },
+        "ds": true,
+        "di": 2,
+        "dr": {
+          "allocation_not_value": "Book value reflects allocated historical cost, while the dealer estimates a selling price",
+          "annual_effects": "Depreciation Expense increases; Accumulated Depreciation increases; net income and total assets decrease",
+          "land_exception": "Depreciate the building; leave Land at historical cost"
+        },
+        "xv": {
+          "current_year_depreciation": 4500,
+          "accumulated_depreciation": 29250,
+          "book_value": 20750,
+          "loss_on_sale": 2750
+        },
+        "xs": true,
+        "xi": 1,
+        "xr": {
+          "sale_comparison": "The $20,750 van leaves the balance sheet; $18,000 Cash replaces part of its book value",
+          "retirement": "Equipment and related Accumulated Depreciation each decrease $20,000; no gain or loss"
+        },
+        "ii": 6,
+        "ir": {
+          "patent_defense": "Increase Patent to $72,000 before later amortization",
+          "copyright": "Increase Copyright and amortize it over eight years",
+          "trademark": "Increase Trademark and do not amortize it",
+          "franchise_purchase": "Increase Franchise and amortize it over ten years",
+          "franchise_annual_fee": "Increase operating expense for the current year",
+          "goodwill": "Increase Goodwill and do not routinely amortize it",
+          "research_development": "Increase Research and Development Expense"
+        },
+        "rv": {
+          "profit_margin": 8.0,
+          "asset_turnover": 1.5,
+          "return_on_assets": 12.0
+        },
+        "rs": true,
+        "ri": 0,
+        "rr": {
+          "presentation": "Show a single long-lived-assets total and explain the mix of assets in the notes"
+        },
+        "at": {},
+        "fp": {}
+      },
+      "seed": "0"
+    },
+    {
+      "token": "eNqVVk1v3DYQ_SuE4KNqrLf-iNenNEmLoC1gtAZ6FLjUaMWaIlWSWu_GyH_vG1LSaoMGSU-SyOFw5r2ZN3otpC42P5aF9MXmtaB_Bt13ZGPlSdbHYlNc3F-Xq9VqI3qvFZUiSENBRHkoReNJ79pYCm1DlMbIqJ0thbS1iBSitruiLHrpn_FWGRfh7Tfe_Nj13u2JrwmwCDpSpYwLfGA00VYhgICbLq6u-P4H8U6GVtQ0r9_m5UfvevLxKJ7kAcuP8ii3hpYObtiQ74myaaropbb5po-jjXga18SHQ082UPEZeCDcVzxVzbhIBWAQKBLMy9JKcww65K-aek9Ky9N-rUPvgFX-0jZKu9MILH8P_TNRz-_JtNis8UgEAEankp_KuljtpRlwpvjJuWeRPoSnxpCKQYymVItWh-hAjzRCuQBCXloNDGJLAAx8ecF0dLDFKRHIGE42EVpwKnaQpqKmYbe47P0imwmSE6AP4q1SQzeYdPWZ7cLGUuRP11GuB4cCETIEQuATibjbYLOig6I-Q3e6O4e_HbSpEeyDMCT3JFJxyPhlxkxYjdCjHwhv-0zZHGV1zs_6-u5mNed9vnePWimLLeCesF_frNl6MgOHVbpyc32TbBvtQ6yOJD0SyeWzucUFCKnpR_rB8C0eiWHl-qPnvllW4LtpMaElO-ej_gTQo0CjgL60xXdwwzReWgUEqBpTaIiWzrghJLefGAMSjfMJTjV4j65Lns4c9YNXLVOycPPztPvfMUWyc0Q75-oXbczy-C_jWjpdO4FyFt4NiIvMcekuiURkzampyfidvDymHdSPuLhbcyOLLSEbEkysn9xk8srCU0BEqoWnPRmXlGzp7Y9xP8X0_mQzN35ZQB9q6iBaXwhEXlwms0wBJNssFP9DF_Dps_j6VBnYYxkckAUu_13-DdZSywhl-BmgrYvWWzovRUexdXUQQ6A6a_Byf0lhXqA5Y53luPJO4tq_WjhiZOsad2CnAeFAykZUGohzTZOamMvJSL9jU5SD3NEY6zZ3ds9cQPbGvv6zdS_sLWl1KXo0fsxhziMnaYZrvppjsg7s5ySnk6QEwpzBCXNkoZfdlM2vkFmkqtM0gnCAXcW-ApQlHAVZN-xarq4dWW4agrJgIQ-5vTNDxxIaeowoKGdstYWZQCXstGXS_Sw6PosOh1PFwVvukWJzdXnDUDCI1Xhq8-ZyxZXKRhVkPmcA0_Ulawbe7jAgcl0MqS4mEax6jKmzeh77-Qegql294FQZ3W35SDiGSN3yDBPnKcObaMgY5lEdjwDOfaf9XlqkamnovyMmpLZPOR2Q2hUeKTXAoD2NbfphrgRmerrzq9OGpDr9EIiL9Sr_EFiQCZwEmgfNlH4wZNLsDvnpkKrxqc0HINOYqjYPl1zTW4kcFaHQiOIDfj_eJNVJfx-eAICCISPFpapRett5NHOOh7kgDt-aQvdprpyNmlUaTCOCeaacH-KZg6mJvLh0ODGcysPmU7FZff4Xw5d0xA",
+      "payload": {
+        "v": 3,
+        "s": 7,
+        "z": 0,
+        "cd": {
+          "acquisition": {},
+          "upkeep": {},
+          "depreciation": {},
+          "disposal": {},
+          "intangible": {},
+          "analysis": {}
+        },
+        "nd": {
+          "depreciation": {},
+          "disposal": {},
+          "analysis": {}
+        },
+        "ai": 3,
+        "ar": {
+          "site_closing": "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+          "parking_lot": "Land Improvements",
+          "equipment_ready": "$94,000: price, sales tax, freight, installation, and testing",
+          "staff_training": "Increase Training Expense"
+        },
+        "ui": 3,
+        "ur": {
+          "van_tuneup": "Increase current-period expense",
+          "climbing_system": "Increase the related plant asset",
+          "building_paint": "Increase current-period expense",
+          "party_room": "Increase the related plant asset"
+        },
+        "dv": {
+          "depreciable_cost": 45000,
+          "annual_depreciation": 9000,
+          "first_year_expense": 6750,
+          "accumulated_depreciation": 24750,
+          "book_value": 25250
+        },
+        "ds": true,
+        "di": 2,
+        "dr": {
+          "allocation_not_value": "Book value reflects allocated historical cost, while the dealer estimates a selling price",
+          "annual_effects": "Depreciation Expense increases; Accumulated Depreciation increases; net income and total assets decrease",
+          "land_exception": "Depreciate the building; leave Land at historical cost"
+        },
+        "xv": {
+          "current_year_depreciation": 4500,
+          "accumulated_depreciation": 29250,
+          "book_value": 20750,
+          "loss_on_sale": 2750
+        },
+        "xs": true,
+        "xi": 1,
+        "xr": {
+          "sale_comparison": "The $20,750 van leaves the balance sheet; $18,000 Cash replaces part of its book value",
+          "retirement": "Equipment and related Accumulated Depreciation each decrease $20,000; no gain or loss"
+        },
+        "ii": 6,
+        "ir": {
+          "patent_defense": "Increase Patent to $72,000 before later amortization",
+          "copyright": "Increase Copyright and amortize it over eight years",
+          "trademark": "Increase Trademark and do not amortize it",
+          "franchise_purchase": "Increase Franchise and amortize it over ten years",
+          "franchise_annual_fee": "Increase operating expense for the current year",
+          "goodwill": "Increase Goodwill and do not routinely amortize it",
+          "research_development": "Increase Research and Development Expense"
+        },
+        "rv": {
+          "profit_margin": 8.0,
+          "asset_turnover": 1.5,
+          "return_on_assets": 12.0
+        },
+        "rs": true,
+        "ri": 3,
+        "rr": {
+          "presentation": "Show property, plant, and equipment net of accumulated depreciation and show intangible assets separately",
+          "disclosures": "Major asset classes, accumulated depreciation, methods used, and depreciation and amortization expense",
+          "same_roa": "Keep existing attractions busy enough to generate high sales volume despite a thinner margin",
+          "improve_roa": "Whether added profit eventually offsets the larger average asset base"
+        },
+        "at": {},
+        "fp": {}
+      },
+      "seed": "0"
+    },
+    {
+      "token": "eNqNUj1v4zAM_SuC0NEHuPloWncsOhS4oUN3g7HpRKgiqSId2Bf0vx8VCU3QoegkknokHx950mB0s6w0RN2cNH6MJhzQcRsR-lk3-uZhVdV13agQTYeVIrBIimGq1BDR7PZcKeOIwVpg412lwPWKkdi4na50gPguVms9S7W_6fPlEKI_YmpDgiDD2HbWU0ooEOM6IUDS6eb2NvV_VE9Ae9XjV_wuh1-jDxh5Vm8wSfgVZthavC6wTsDUh2EYWo5gXO70UjDqrcTU8xTQEepP0UPonuTt-qQLdCKMEJUBcxgc2JkMZa_HELEzcPnvDQUvWmXPOAa3M0Is-2N4RwzJPkN1U8sTS6bUHMASinnMoSGUMhlpCtJlaj8x-fKlddt5kqFWa5HjG0NxY64dS-14YRELCzrfyZjPZTyfy3Y0tk_bDSIgX0vajTHKfv_IbozvFRZhRU9rDtuUQjMxHq5zeI8qopwR9ipYcKyACDkfEc9t9P6X-CO4lkeHY_gFJxnteJ5pyhJMRYLpIsFUJPinm4fFYrncLOrl3f16tdms7-vN53_7MhkA",
+      "payload": {
+        "v": 3,
+        "s": 3,
+        "z": 9223372036854775807,
+        "cd": {
+          "acquisition": {},
+          "upkeep": {},
+          "depreciation": {},
+          "disposal": {},
+          "intangible": {},
+          "analysis": {}
+        },
+        "nd": {
+          "depreciation": {
+            "depreciable_cost": 45000
+          },
+          "disposal": {},
+          "analysis": {}
+        },
+        "ai": 3,
+        "ar": {
+          "site_closing": "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+          "parking_lot": "Land Improvements",
+          "equipment_ready": "$94,000: price, sales tax, freight, installation, and testing",
+          "staff_training": "Increase Training Expense"
+        },
+        "ui": 3,
+        "ur": {
+          "van_tuneup": "Increase current-period expense",
+          "climbing_system": "Increase the related plant asset",
+          "building_paint": "Increase current-period expense",
+          "party_room": "Increase the related plant asset"
+        },
+        "dv": {},
+        "ds": false,
+        "di": 0,
+        "dr": {},
+        "xv": {},
+        "xs": false,
+        "xi": 0,
+        "xr": {},
+        "ii": 0,
+        "ir": {},
+        "rv": {},
+        "rs": false,
+        "ri": 0,
+        "rr": {},
+        "at": {},
+        "fp": {}
+      },
+      "seed": "9223372036854775807"
+    },
+    {
+      "token": "eNqVUDFuwzAM_IogdPRgo2gGZ-zaIUP3gJGYlKggq6JdyAny91ChkHTtRN7peDzqYoHs2HcWsh0vV6mzVuelWnA_CzHNNMUKpcO9CxNTPNnRfkD0hqLLCIxsXoah6_t-a96Bv4zHB79RepenhHlezScUoXewwiHgX4O3KrQ1RYSwMrFm8ZgyOoIWozLEaWIIiijOEE8kZoqX9I2Yan-X3u_z7T4vnkcIjNL-KnVMzUaV1JRRf-AfSQRm9cjNIz-35bZNmEEiqm5pOnl77WxRsjSyPIdLGz6L4HoDwhuMYw",
+      "payload": {
+        "v": 3,
+        "s": 1,
+        "z": 0,
+        "cd": {
+          "acquisition": {
+            "site_closing": "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000"
+          },
+          "upkeep": {},
+          "depreciation": {},
+          "disposal": {},
+          "intangible": {},
+          "analysis": {}
+        },
+        "nd": {
+          "depreciation": {},
+          "disposal": {},
+          "analysis": {}
+        },
+        "ai": 0,
+        "ar": {},
+        "ui": 0,
+        "ur": {},
+        "dv": {},
+        "ds": false,
+        "di": 0,
+        "dr": {},
+        "xv": {},
+        "xs": false,
+        "xi": 0,
+        "xr": {},
+        "ii": 0,
+        "ir": {},
+        "rv": {},
+        "rs": false,
+        "ri": 0,
+        "rr": {},
+        "at": {},
+        "fp": {}
+      },
+      "seed": "0"
+    },
+    {
+      "token": "eNqVVtuO2zYQ_RVC2Ed14XX3ktU-NZcWQVtg0S7QR4GmRha7FKmSlNdOkH_PGVKW5SBBkyeJ5HAuZ2bO8GMhdVH9XBbSF9XHgv4b9dCTjbUn2RyKqri4vy5Xq1UlBq8VlSJIQ0FEuS9F60lvu1gKbUOUxsionS2FtI2IFKK226IsBumf8VcbF6HtDz583w_e7YjNBEgEHalWxgW-MIloq-BAgKWLqyu2_yDeyNCJhub927z96N1APh7Ek9xj-1Ee5MbQUsENC7KdKNu2jl5qmy29n2TE07Qn3u0HsoGKT8AjMh6qc4i6or3qpN1SUV3hSDV8JBWwgu-IGUu-YaU5BB3yqqHBk9LydN7oMDjAl1faRmjU8DWvx-GZaOD_JFpUa3xSToCsU0lPbV2sd9KMuFO8du5ZpIXw1BpSMYhJlBrR6RAdMiaNUC4gRy-dBiyxI2CIFHrBGeohi1sikDEcf8pxwaHYUZqa2pbVwtjbRTRHlE4YP4hflBr70STTZ7ILGUuRl66nXCIONSNkCATHj3mFbYPDGoDTkKE72c7ub0ZtGjj7IAzJHYlULzJ-GTHnsIHr0Y-Ev11O2exlfZ6f9fXdzWqO-_zsHuVTFhvAfcR-fbNm6aMYclgnk9X1TZJttQ-xPpD0CCRXVHULA3CpHb5aVuwlFwXyfotPyrtyw8Fzgy1L9c1xM2Eoe-ej_oBURIGOQlLTEVvmzmq9tAq4UD0F1hItlXHnSO5TMbkpWucTyGr0Hu2ZNJ0pGkYPn8OZml-Pp1_3KZKdPdo617xoY5bXf5v20u3GCRS58G6EX2QOS3WJTSKTU0NtRvWk5TGdoKrExd2aO15sCNGQ4HT7o5qc0rLwFOCR6qBpR8Ylyltq-2s6Tz69PcnMDFEWIJKGerDbF0ySN5fBLENAkm2mjx9gCyx9ZmmfKgNnzJcjooDxP-W_yFpqJKEMfwNIeNGQS-Wl6Cl2rgliDNRksl6eL1OYN2iOWGferr2TMPtPB0WMbNPABk5aJBxI2YhKQ-Jc26bW5nIy0m9ZFOUgtzT5usn9PnAuQIZTt__duRfWlki9FAPoIGY359mUmMS134wxSQfWcyLZI9EEwkDCDXPgiSD7YzS_g3wRqk5jC3SC7CrWFcA34SDIunHbcXVtyXLTEPgGG3ka7pwZeybWMGCWgU9jpy3EBCphqy0n3c9U5DMVsTt1HL3lHsFcubxhKBjEerpVvbpccaWyUA3yzxFAdH3JTIK_O4yNXBdjqosjNdYD5tlZPU_9_BNQ1a5Z5FQZ3W_4SjiESP3yDifOU4Y3pSFjmGd6PAA4953yO2kRqqVx-A6fENouxbTPQ3CfHyYzVRZPsNNK7afhByN6a4kHSnLBGSRfp7rgtuBJg11LL6fdRABRe5ra_t1cWSx-jOGbM42kOr1ExMV6lV8iFsUB3AWsojnTy0amydADLx1SdbPvfAHDAO7bPMJyj2wkMFOEwiWKD3j3vEoslp49ngCogiAjz6WvUcqb-QHAmO3nAtv_36y7T9PrbKCt0vibMpIn1_klnmyYzYiLS5EDw6080j4U1erTZ2hmoCI",
+      "payload": {
+        "v": 3,
+        "s": 7,
+        "z": 0,
+        "cd": {
+          "acquisition": {},
+          "upkeep": {},
+          "depreciation": {},
+          "disposal": {},
+          "intangible": {},
+          "analysis": {}
+        },
+        "nd": {
+          "depreciation": {},
+          "disposal": {},
+          "analysis": {}
+        },
+        "ai": 3,
+        "ar": {
+          "site_closing": "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+          "parking_lot": "Land Improvements",
+          "equipment_ready": "$94,000: price, sales tax, freight, installation, and testing",
+          "staff_training": "Increase Training Expense"
+        },
+        "ui": 3,
+        "ur": {
+          "van_tuneup": "Increase current-period expense",
+          "climbing_system": "Increase the related plant asset",
+          "building_paint": "Increase current-period expense",
+          "party_room": "Increase the related plant asset"
+        },
+        "dv": {
+          "depreciable_cost": 45000,
+          "annual_depreciation": 9000,
+          "first_year_expense": 6750,
+          "accumulated_depreciation": 24750,
+          "book_value": 25250
+        },
+        "ds": true,
+        "di": 2,
+        "dr": {
+          "allocation_not_value": "Book value reflects allocated historical cost, while the dealer estimates a selling price",
+          "annual_effects": "Depreciation Expense increases; Accumulated Depreciation increases; net income and total assets decrease",
+          "land_exception": "Depreciate the building; leave Land at historical cost"
+        },
+        "xv": {
+          "current_year_depreciation": 4500,
+          "accumulated_depreciation": 29250,
+          "book_value": 20750,
+          "loss_on_sale": 2750
+        },
+        "xs": true,
+        "xi": 1,
+        "xr": {
+          "sale_comparison": "The $20,750 van leaves the balance sheet; $18,000 Cash replaces part of its book value",
+          "retirement": "Equipment and related Accumulated Depreciation each decrease $20,000; no gain or loss"
+        },
+        "ii": 6,
+        "ir": {
+          "patent_defense": "Increase Patent to $72,000 before later amortization",
+          "copyright": "Increase Copyright and amortize it over eight years",
+          "trademark": "Increase Trademark and do not amortize it",
+          "franchise_purchase": "Increase Franchise and amortize it over ten years",
+          "franchise_annual_fee": "Increase operating expense for the current year",
+          "goodwill": "Increase Goodwill and do not routinely amortize it",
+          "research_development": "Increase Research and Development Expense"
+        },
+        "rv": {
+          "profit_margin": 8.0,
+          "asset_turnover": 1.5,
+          "return_on_assets": 12.0
+        },
+        "rs": true,
+        "ri": 3,
+        "rr": {
+          "presentation": "Show property, plant, and equipment net of accumulated depreciation and show intangible assets separately",
+          "disclosures": "Major asset classes, accumulated depreciation, methods used, and depreciation and amortization expense",
+          "same_roa": "Keep existing attractions busy enough to generate high sales volume despite a thinner margin",
+          "improve_roa": "Whether added profit eventually offsets the larger average asset base"
+        },
+        "at": {},
+        "fp": {}
+      },
+      "seed": "0"
+    },
+    {
+      "token": "eNqNVMtu2zAQ_JWFEKAXF3BcJ23kUx85BOghh9wFmlrZRGhSJSlXbpB_7yzpZ9GiOYki9zE7O7svlTJV_WFSqVDVLxX_GEy_YZeawKrdVXV1dTefTKfTmvpgNE8oKsuRkhon1AU2q3WakHExKWtVMt5NSLmWEsdk3KqaVL0Kzzg11idE-y6PD5s--C1LmgiLaBI32vooDnsT4zQARGS6ur6W_Av6quKaWj7e35brx-B7DmlHT2rE9aPaqaXl8wA3Yih5kuq6JgVlXMn0sLehp_0d3Y89u8jVK_hIwodee1Rd86jXyq24qq_xpFt5UhpcATtqxq94OGV30cTy13IfWBt1em9N7D3oyzwfA1ZPayZvW4pmM4BCH95F8sGsDMJRPwQYRqlnK0houSOTIttOMBqXEMSg3pJh6J-ZeznndFU9wyf3Fd3xOmNpnE_NVtlBcn_x_pnyDwXuLOsUaW_KLa1NBByjgUP7iD7_XBtQmwC4ZcggkHR5A1t4EUBZ4TDrpBI63KBsw10nYZHs2xkjB6ZPfVrQZ62HTAFSX9ie2ThO8us3XGTmoTtSMTKAH7SB3BaPDTjmvtB_yl3gLwdjW4BdkGW1ZcqaU-nPioXjFtBTGBinbWn7EWVz2ePZ_OPN9Fj35dsdJDiplqD7wP3sZibWBzP0sMkp6_lNtu1MiKnZsQoopKiyvkUCQOr6v0qzUzayqAKNRwATiihcUevbxSniCSVG2McIcR8ex225ws0ciivLY8giO7Da9BindD5geggB0_4ek2p8S4eCMErWbJbiEncx8ebcR_oUuMihR0NT6XNZKWnXBO_faL9VrkmD46F_AyaUts01jWV-xlxa4GRC3lgIcX9YklmDh5z_lC8rfVpcdDWblsXlPK3AE2adsPvyIlRZBBvUZ2KWrewGcUDfMaauqDUWCSvUiIUQ18xpgTX5ScKWLRkYBGgYClPkO1kZtDzOutQ4HmU9_k_Wd1moF9qdZqXvGSwivXQSEWMMUVeDlSOFwauo9xeU9fobnjw8ig",
+      "payload": {
+        "v": 3,
+        "s": 5,
+        "z": 0,
+        "cd": {
+          "acquisition": {},
+          "upkeep": {},
+          "depreciation": {},
+          "disposal": {},
+          "intangible": {},
+          "analysis": {}
+        },
+        "nd": {
+          "depreciation": {},
+          "disposal": {},
+          "analysis": {}
+        },
+        "ai": 3,
+        "ar": {
+          "site_closing": "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+          "parking_lot": "Land Improvements",
+          "equipment_ready": "$94,000: price, sales tax, freight, installation, and testing",
+          "staff_training": "Increase Training Expense"
+        },
+        "ui": 3,
+        "ur": {
+          "van_tuneup": "Increase current-period expense",
+          "climbing_system": "Increase the related plant asset",
+          "building_paint": "Increase current-period expense",
+          "party_room": "Increase the related plant asset"
+        },
+        "dv": {
+          "depreciable_cost": 45000,
+          "annual_depreciation": 9000,
+          "first_year_expense": 6750,
+          "accumulated_depreciation": 24750,
+          "book_value": 25250
+        },
+        "ds": true,
+        "di": 2,
+        "dr": {
+          "allocation_not_value": "Book value reflects allocated historical cost, while the dealer estimates a selling price",
+          "annual_effects": "Depreciation Expense increases; Accumulated Depreciation increases; net income and total assets decrease",
+          "land_exception": "Depreciate the building; leave Land at historical cost"
+        },
+        "xv": {
+          "current_year_depreciation": 4500,
+          "accumulated_depreciation": 29250,
+          "book_value": 20750,
+          "loss_on_sale": 2750
+        },
+        "xs": true,
+        "xi": 1,
+        "xr": {
+          "sale_comparison": "The $20,750 van leaves the balance sheet; $18,000 Cash replaces part of its book value",
+          "retirement": "Equipment and related Accumulated Depreciation each decrease $20,000; no gain or loss"
+        },
+        "ii": 0,
+        "ir": {},
+        "rv": {},
+        "rs": false,
+        "ri": 0,
+        "rr": {},
+        "at": {},
+        "fp": {}
+      },
+      "seed": "0"
+    }
+  ],
+  "shuffles": [
+    {
+      "seed": "0",
+      "input": [
+        "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+        "Land increases $6,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+        "Land increases $11,000; Cash decreases $11,000; Property Taxes Payable is unchanged"
+      ],
+      "salt": "acquisition-answer-order:site_closing",
+      "output": [
+        "Land increases $6,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+        "Land increases $11,000; Cash decreases $11,000; Property Taxes Payable is unchanged",
+        "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Land Improvements",
+        "Land",
+        "Building"
+      ],
+      "salt": "acquisition-answer-order:parking_lot",
+      "output": [
+        "Building",
+        "Land",
+        "Land Improvements"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "$94,000: price, sales tax, freight, installation, and testing",
+        "$89,000: price, sales tax, and freight",
+        "$87,000: price and sales tax"
+      ],
+      "salt": "acquisition-answer-order:equipment_ready",
+      "output": [
+        "$89,000: price, sales tax, and freight",
+        "$87,000: price and sales tax",
+        "$94,000: price, sales tax, freight, installation, and testing"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Increase Training Expense",
+        "Increase Equipment"
+      ],
+      "salt": "acquisition-answer-order:staff_training",
+      "output": [
+        "Increase Equipment",
+        "Increase Training Expense"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:van_tuneup",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:climbing_system",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:building_paint",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:party_room",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Book value reflects allocated historical cost, while the dealer estimates a selling price",
+        "Book value reflects cash set aside for a replacement, while the dealer estimates a selling price",
+        "Book value reflects this year's operating cash flow, while the dealer estimates a selling price"
+      ],
+      "salt": "depreciation-answer-order:allocation_not_value",
+      "output": [
+        "Book value reflects this year's operating cash flow, while the dealer estimates a selling price",
+        "Book value reflects cash set aside for a replacement, while the dealer estimates a selling price",
+        "Book value reflects allocated historical cost, while the dealer estimates a selling price"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Depreciation Expense increases; Accumulated Depreciation increases; net income and total assets decrease",
+        "Depreciation Expense increases; Equipment cost decreases; net income and total assets decrease",
+        "Depreciation Expense increases; Accumulated Depreciation increases; Cash decreases"
+      ],
+      "salt": "depreciation-answer-order:annual_effects",
+      "output": [
+        "Depreciation Expense increases; Equipment cost decreases; net income and total assets decrease",
+        "Depreciation Expense increases; Accumulated Depreciation increases; Cash decreases",
+        "Depreciation Expense increases; Accumulated Depreciation increases; net income and total assets decrease"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Depreciate the building; leave Land at historical cost",
+        "Depreciate both over the building's useful life",
+        "Depreciate Land but leave Building at historical cost"
+      ],
+      "salt": "depreciation-answer-order:land_exception",
+      "output": [
+        "Depreciate Land but leave Building at historical cost",
+        "Depreciate both over the building's useful life",
+        "Depreciate the building; leave Land at historical cost"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "The $20,750 van leaves the balance sheet; $18,000 Cash replaces part of its book value",
+        "The $50,000 original cost leaves the balance sheet; the related depreciation stays on the balance sheet",
+        "The $18,000 Cash replaces the van; the difference is reported as additional depreciation expense"
+      ],
+      "salt": "disposal-answer-order:sale_comparison",
+      "output": [
+        "The $50,000 original cost leaves the balance sheet; the related depreciation stays on the balance sheet",
+        "The $18,000 Cash replaces the van; the difference is reported as additional depreciation expense",
+        "The $20,750 van leaves the balance sheet; $18,000 Cash replaces part of its book value"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Equipment and related Accumulated Depreciation each decrease $20,000; no gain or loss",
+        "Equipment decreases $20,000; Accumulated Depreciation stays; a loss increases $20,000",
+        "Equipment and related Accumulated Depreciation each decrease $20,000; a loss increases $20,000"
+      ],
+      "salt": "disposal-answer-order:retirement",
+      "output": [
+        "Equipment decreases $20,000; Accumulated Depreciation stays; a loss increases $20,000",
+        "Equipment and related Accumulated Depreciation each decrease $20,000; a loss increases $20,000",
+        "Equipment and related Accumulated Depreciation each decrease $20,000; no gain or loss"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Increase Patent to $72,000 before later amortization",
+        "Leave Patent at $60,000 and increase current legal expense $12,000",
+        "Increase Goodwill $12,000 and leave Patent at $60,000"
+      ],
+      "salt": "intangible-answer-order:patent_defense",
+      "output": [
+        "Increase Patent to $72,000 before later amortization",
+        "Increase Goodwill $12,000 and leave Patent at $60,000",
+        "Leave Patent at $60,000 and increase current legal expense $12,000"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Increase Copyright and amortize it over eight years",
+        "Increase Copyright and amortize it over its remaining legal life even if longer than eight years",
+        "Increase Copyright and wait until the rights expire to recognize expense"
+      ],
+      "salt": "intangible-answer-order:copyright",
+      "output": [
+        "Increase Copyright and amortize it over its remaining legal life even if longer than eight years",
+        "Increase Copyright and amortize it over eight years",
+        "Increase Copyright and wait until the rights expire to recognize expense"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Increase Trademark and do not amortize it",
+        "Increase Trademark and amortize it over an estimated five-year period",
+        "Increase Trademark and expense the entire purchase price this year"
+      ],
+      "salt": "intangible-answer-order:trademark",
+      "output": [
+        "Increase Trademark and amortize it over an estimated five-year period",
+        "Increase Trademark and expense the entire purchase price this year",
+        "Increase Trademark and do not amortize it"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Increase Franchise and amortize it over ten years",
+        "Increase Franchise and amortize it over a period based on expected renewals beyond ten years",
+        "Increase current expense for the full payment because the agreement requires annual fees"
+      ],
+      "salt": "intangible-answer-order:franchise_purchase",
+      "output": [
+        "Increase current expense for the full payment because the agreement requires annual fees",
+        "Increase Franchise and amortize it over a period based on expected renewals beyond ten years",
+        "Increase Franchise and amortize it over ten years"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Increase operating expense for the current year",
+        "Increase Franchise and spread the fee over the remaining contract",
+        "Increase a prepaid asset and spread the fee over future contract years"
+      ],
+      "salt": "intangible-answer-order:franchise_annual_fee",
+      "output": [
+        "Increase a prepaid asset and spread the fee over future contract years",
+        "Increase Franchise and spread the fee over the remaining contract",
+        "Increase operating expense for the current year"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Increase Goodwill and do not routinely amortize it",
+        "Allocate the difference to identifiable assets without evidence of higher fair values",
+        "Increase current acquisition expense for the full difference"
+      ],
+      "salt": "intangible-answer-order:goodwill",
+      "output": [
+        "Increase Goodwill and do not routinely amortize it",
+        "Increase current acquisition expense for the full difference",
+        "Allocate the difference to identifiable assets without evidence of higher fair values"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Increase Research and Development Expense",
+        "Increase an internally developed Patent asset",
+        "Increase a development asset until commercial success is known"
+      ],
+      "salt": "intangible-answer-order:research_development",
+      "output": [
+        "Increase a development asset until commercial success is known",
+        "Increase an internally developed Patent asset",
+        "Increase Research and Development Expense"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Show property, plant, and equipment net of accumulated depreciation and show intangible assets separately",
+        "Show a single long-lived-assets total and explain the mix of assets in the notes",
+        "Show property, plant, and equipment at original cost and include accumulated depreciation with intangible assets"
+      ],
+      "salt": "analysis-answer-order:presentation",
+      "output": [
+        "Show property, plant, and equipment net of accumulated depreciation and show intangible assets separately",
+        "Show property, plant, and equipment at original cost and include accumulated depreciation with intangible assets",
+        "Show a single long-lived-assets total and explain the mix of assets in the notes"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Major asset classes, accumulated depreciation, methods used, and depreciation and amortization expense",
+        "Major asset classes and current-year asset purchases, without the allocation methods or related expense",
+        "Asset replacement plans and estimated selling prices, without cost-allocation methods"
+      ],
+      "salt": "analysis-answer-order:disclosures",
+      "output": [
+        "Asset replacement plans and estimated selling prices, without cost-allocation methods",
+        "Major asset classes, accumulated depreciation, methods used, and depreciation and amortization expense",
+        "Major asset classes and current-year asset purchases, without the allocation methods or related expense"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Keep existing attractions busy enough to generate high sales volume despite a thinner margin",
+        "Accept fewer customer visits and rely on higher profit per sale to replace the lost volume",
+        "Add more attractions before demand grows so the company has a larger asset base"
+      ],
+      "salt": "analysis-answer-order:same_roa",
+      "output": [
+        "Keep existing attractions busy enough to generate high sales volume despite a thinner margin",
+        "Add more attractions before demand grows so the company has a larger asset base",
+        "Accept fewer customer visits and rely on higher profit per sale to replace the lost volume"
+      ]
+    },
+    {
+      "seed": "0",
+      "input": [
+        "Whether added profit eventually offsets the larger average asset base",
+        "Whether visitor sales rise after launch, even if the added expenses outpace those sales",
+        "Whether the new attraction earns a profit, without comparing that profit with the larger investment"
+      ],
+      "salt": "analysis-answer-order:improve_roa",
+      "output": [
+        "Whether visitor sales rise after launch, even if the added expenses outpace those sales",
+        "Whether the new attraction earns a profit, without comparing that profit with the larger investment",
+        "Whether added profit eventually offsets the larger average asset base"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+        "Land increases $6,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+        "Land increases $11,000; Cash decreases $11,000; Property Taxes Payable is unchanged"
+      ],
+      "salt": "acquisition-answer-order:site_closing",
+      "output": [
+        "Land increases $6,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+        "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+        "Land increases $11,000; Cash decreases $11,000; Property Taxes Payable is unchanged"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Land Improvements",
+        "Land",
+        "Building"
+      ],
+      "salt": "acquisition-answer-order:parking_lot",
+      "output": [
+        "Land",
+        "Land Improvements",
+        "Building"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "$94,000: price, sales tax, freight, installation, and testing",
+        "$89,000: price, sales tax, and freight",
+        "$87,000: price and sales tax"
+      ],
+      "salt": "acquisition-answer-order:equipment_ready",
+      "output": [
+        "$87,000: price and sales tax",
+        "$89,000: price, sales tax, and freight",
+        "$94,000: price, sales tax, freight, installation, and testing"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Increase Training Expense",
+        "Increase Equipment"
+      ],
+      "salt": "acquisition-answer-order:staff_training",
+      "output": [
+        "Increase Equipment",
+        "Increase Training Expense"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:van_tuneup",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:climbing_system",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:building_paint",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:party_room",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Book value reflects allocated historical cost, while the dealer estimates a selling price",
+        "Book value reflects cash set aside for a replacement, while the dealer estimates a selling price",
+        "Book value reflects this year's operating cash flow, while the dealer estimates a selling price"
+      ],
+      "salt": "depreciation-answer-order:allocation_not_value",
+      "output": [
+        "Book value reflects cash set aside for a replacement, while the dealer estimates a selling price",
+        "Book value reflects this year's operating cash flow, while the dealer estimates a selling price",
+        "Book value reflects allocated historical cost, while the dealer estimates a selling price"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Depreciation Expense increases; Accumulated Depreciation increases; net income and total assets decrease",
+        "Depreciation Expense increases; Equipment cost decreases; net income and total assets decrease",
+        "Depreciation Expense increases; Accumulated Depreciation increases; Cash decreases"
+      ],
+      "salt": "depreciation-answer-order:annual_effects",
+      "output": [
+        "Depreciation Expense increases; Equipment cost decreases; net income and total assets decrease",
+        "Depreciation Expense increases; Accumulated Depreciation increases; Cash decreases",
+        "Depreciation Expense increases; Accumulated Depreciation increases; net income and total assets decrease"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Depreciate the building; leave Land at historical cost",
+        "Depreciate both over the building's useful life",
+        "Depreciate Land but leave Building at historical cost"
+      ],
+      "salt": "depreciation-answer-order:land_exception",
+      "output": [
+        "Depreciate Land but leave Building at historical cost",
+        "Depreciate the building; leave Land at historical cost",
+        "Depreciate both over the building's useful life"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "The $20,750 van leaves the balance sheet; $18,000 Cash replaces part of its book value",
+        "The $50,000 original cost leaves the balance sheet; the related depreciation stays on the balance sheet",
+        "The $18,000 Cash replaces the van; the difference is reported as additional depreciation expense"
+      ],
+      "salt": "disposal-answer-order:sale_comparison",
+      "output": [
+        "The $20,750 van leaves the balance sheet; $18,000 Cash replaces part of its book value",
+        "The $18,000 Cash replaces the van; the difference is reported as additional depreciation expense",
+        "The $50,000 original cost leaves the balance sheet; the related depreciation stays on the balance sheet"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Equipment and related Accumulated Depreciation each decrease $20,000; no gain or loss",
+        "Equipment decreases $20,000; Accumulated Depreciation stays; a loss increases $20,000",
+        "Equipment and related Accumulated Depreciation each decrease $20,000; a loss increases $20,000"
+      ],
+      "salt": "disposal-answer-order:retirement",
+      "output": [
+        "Equipment decreases $20,000; Accumulated Depreciation stays; a loss increases $20,000",
+        "Equipment and related Accumulated Depreciation each decrease $20,000; no gain or loss",
+        "Equipment and related Accumulated Depreciation each decrease $20,000; a loss increases $20,000"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Increase Patent to $72,000 before later amortization",
+        "Leave Patent at $60,000 and increase current legal expense $12,000",
+        "Increase Goodwill $12,000 and leave Patent at $60,000"
+      ],
+      "salt": "intangible-answer-order:patent_defense",
+      "output": [
+        "Increase Patent to $72,000 before later amortization",
+        "Increase Goodwill $12,000 and leave Patent at $60,000",
+        "Leave Patent at $60,000 and increase current legal expense $12,000"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Increase Copyright and amortize it over eight years",
+        "Increase Copyright and amortize it over its remaining legal life even if longer than eight years",
+        "Increase Copyright and wait until the rights expire to recognize expense"
+      ],
+      "salt": "intangible-answer-order:copyright",
+      "output": [
+        "Increase Copyright and wait until the rights expire to recognize expense",
+        "Increase Copyright and amortize it over its remaining legal life even if longer than eight years",
+        "Increase Copyright and amortize it over eight years"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Increase Trademark and do not amortize it",
+        "Increase Trademark and amortize it over an estimated five-year period",
+        "Increase Trademark and expense the entire purchase price this year"
+      ],
+      "salt": "intangible-answer-order:trademark",
+      "output": [
+        "Increase Trademark and amortize it over an estimated five-year period",
+        "Increase Trademark and expense the entire purchase price this year",
+        "Increase Trademark and do not amortize it"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Increase Franchise and amortize it over ten years",
+        "Increase Franchise and amortize it over a period based on expected renewals beyond ten years",
+        "Increase current expense for the full payment because the agreement requires annual fees"
+      ],
+      "salt": "intangible-answer-order:franchise_purchase",
+      "output": [
+        "Increase Franchise and amortize it over a period based on expected renewals beyond ten years",
+        "Increase current expense for the full payment because the agreement requires annual fees",
+        "Increase Franchise and amortize it over ten years"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Increase operating expense for the current year",
+        "Increase Franchise and spread the fee over the remaining contract",
+        "Increase a prepaid asset and spread the fee over future contract years"
+      ],
+      "salt": "intangible-answer-order:franchise_annual_fee",
+      "output": [
+        "Increase Franchise and spread the fee over the remaining contract",
+        "Increase a prepaid asset and spread the fee over future contract years",
+        "Increase operating expense for the current year"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Increase Goodwill and do not routinely amortize it",
+        "Allocate the difference to identifiable assets without evidence of higher fair values",
+        "Increase current acquisition expense for the full difference"
+      ],
+      "salt": "intangible-answer-order:goodwill",
+      "output": [
+        "Increase current acquisition expense for the full difference",
+        "Allocate the difference to identifiable assets without evidence of higher fair values",
+        "Increase Goodwill and do not routinely amortize it"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Increase Research and Development Expense",
+        "Increase an internally developed Patent asset",
+        "Increase a development asset until commercial success is known"
+      ],
+      "salt": "intangible-answer-order:research_development",
+      "output": [
+        "Increase an internally developed Patent asset",
+        "Increase a development asset until commercial success is known",
+        "Increase Research and Development Expense"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Show property, plant, and equipment net of accumulated depreciation and show intangible assets separately",
+        "Show a single long-lived-assets total and explain the mix of assets in the notes",
+        "Show property, plant, and equipment at original cost and include accumulated depreciation with intangible assets"
+      ],
+      "salt": "analysis-answer-order:presentation",
+      "output": [
+        "Show a single long-lived-assets total and explain the mix of assets in the notes",
+        "Show property, plant, and equipment net of accumulated depreciation and show intangible assets separately",
+        "Show property, plant, and equipment at original cost and include accumulated depreciation with intangible assets"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Major asset classes, accumulated depreciation, methods used, and depreciation and amortization expense",
+        "Major asset classes and current-year asset purchases, without the allocation methods or related expense",
+        "Asset replacement plans and estimated selling prices, without cost-allocation methods"
+      ],
+      "salt": "analysis-answer-order:disclosures",
+      "output": [
+        "Major asset classes and current-year asset purchases, without the allocation methods or related expense",
+        "Asset replacement plans and estimated selling prices, without cost-allocation methods",
+        "Major asset classes, accumulated depreciation, methods used, and depreciation and amortization expense"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Keep existing attractions busy enough to generate high sales volume despite a thinner margin",
+        "Accept fewer customer visits and rely on higher profit per sale to replace the lost volume",
+        "Add more attractions before demand grows so the company has a larger asset base"
+      ],
+      "salt": "analysis-answer-order:same_roa",
+      "output": [
+        "Add more attractions before demand grows so the company has a larger asset base",
+        "Accept fewer customer visits and rely on higher profit per sale to replace the lost volume",
+        "Keep existing attractions busy enough to generate high sales volume despite a thinner margin"
+      ]
+    },
+    {
+      "seed": "1",
+      "input": [
+        "Whether added profit eventually offsets the larger average asset base",
+        "Whether visitor sales rise after launch, even if the added expenses outpace those sales",
+        "Whether the new attraction earns a profit, without comparing that profit with the larger investment"
+      ],
+      "salt": "analysis-answer-order:improve_roa",
+      "output": [
+        "Whether added profit eventually offsets the larger average asset base",
+        "Whether the new attraction earns a profit, without comparing that profit with the larger investment",
+        "Whether visitor sales rise after launch, even if the added expenses outpace those sales"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+        "Land increases $6,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+        "Land increases $11,000; Cash decreases $11,000; Property Taxes Payable is unchanged"
+      ],
+      "salt": "acquisition-answer-order:site_closing",
+      "output": [
+        "Land increases $11,000; Cash decreases $11,000; Property Taxes Payable is unchanged",
+        "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+        "Land increases $6,000; Cash decreases $6,000; Property Taxes Payable increases $5,000"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Land Improvements",
+        "Land",
+        "Building"
+      ],
+      "salt": "acquisition-answer-order:parking_lot",
+      "output": [
+        "Land",
+        "Land Improvements",
+        "Building"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "$94,000: price, sales tax, freight, installation, and testing",
+        "$89,000: price, sales tax, and freight",
+        "$87,000: price and sales tax"
+      ],
+      "salt": "acquisition-answer-order:equipment_ready",
+      "output": [
+        "$89,000: price, sales tax, and freight",
+        "$94,000: price, sales tax, freight, installation, and testing",
+        "$87,000: price and sales tax"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Increase Training Expense",
+        "Increase Equipment"
+      ],
+      "salt": "acquisition-answer-order:staff_training",
+      "output": [
+        "Increase Equipment",
+        "Increase Training Expense"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:van_tuneup",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:climbing_system",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:building_paint",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:party_room",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Book value reflects allocated historical cost, while the dealer estimates a selling price",
+        "Book value reflects cash set aside for a replacement, while the dealer estimates a selling price",
+        "Book value reflects this year's operating cash flow, while the dealer estimates a selling price"
+      ],
+      "salt": "depreciation-answer-order:allocation_not_value",
+      "output": [
+        "Book value reflects allocated historical cost, while the dealer estimates a selling price",
+        "Book value reflects this year's operating cash flow, while the dealer estimates a selling price",
+        "Book value reflects cash set aside for a replacement, while the dealer estimates a selling price"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Depreciation Expense increases; Accumulated Depreciation increases; net income and total assets decrease",
+        "Depreciation Expense increases; Equipment cost decreases; net income and total assets decrease",
+        "Depreciation Expense increases; Accumulated Depreciation increases; Cash decreases"
+      ],
+      "salt": "depreciation-answer-order:annual_effects",
+      "output": [
+        "Depreciation Expense increases; Equipment cost decreases; net income and total assets decrease",
+        "Depreciation Expense increases; Accumulated Depreciation increases; Cash decreases",
+        "Depreciation Expense increases; Accumulated Depreciation increases; net income and total assets decrease"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Depreciate the building; leave Land at historical cost",
+        "Depreciate both over the building's useful life",
+        "Depreciate Land but leave Building at historical cost"
+      ],
+      "salt": "depreciation-answer-order:land_exception",
+      "output": [
+        "Depreciate the building; leave Land at historical cost",
+        "Depreciate Land but leave Building at historical cost",
+        "Depreciate both over the building's useful life"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "The $20,750 van leaves the balance sheet; $18,000 Cash replaces part of its book value",
+        "The $50,000 original cost leaves the balance sheet; the related depreciation stays on the balance sheet",
+        "The $18,000 Cash replaces the van; the difference is reported as additional depreciation expense"
+      ],
+      "salt": "disposal-answer-order:sale_comparison",
+      "output": [
+        "The $18,000 Cash replaces the van; the difference is reported as additional depreciation expense",
+        "The $20,750 van leaves the balance sheet; $18,000 Cash replaces part of its book value",
+        "The $50,000 original cost leaves the balance sheet; the related depreciation stays on the balance sheet"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Equipment and related Accumulated Depreciation each decrease $20,000; no gain or loss",
+        "Equipment decreases $20,000; Accumulated Depreciation stays; a loss increases $20,000",
+        "Equipment and related Accumulated Depreciation each decrease $20,000; a loss increases $20,000"
+      ],
+      "salt": "disposal-answer-order:retirement",
+      "output": [
+        "Equipment decreases $20,000; Accumulated Depreciation stays; a loss increases $20,000",
+        "Equipment and related Accumulated Depreciation each decrease $20,000; a loss increases $20,000",
+        "Equipment and related Accumulated Depreciation each decrease $20,000; no gain or loss"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Increase Patent to $72,000 before later amortization",
+        "Leave Patent at $60,000 and increase current legal expense $12,000",
+        "Increase Goodwill $12,000 and leave Patent at $60,000"
+      ],
+      "salt": "intangible-answer-order:patent_defense",
+      "output": [
+        "Leave Patent at $60,000 and increase current legal expense $12,000",
+        "Increase Goodwill $12,000 and leave Patent at $60,000",
+        "Increase Patent to $72,000 before later amortization"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Increase Copyright and amortize it over eight years",
+        "Increase Copyright and amortize it over its remaining legal life even if longer than eight years",
+        "Increase Copyright and wait until the rights expire to recognize expense"
+      ],
+      "salt": "intangible-answer-order:copyright",
+      "output": [
+        "Increase Copyright and amortize it over its remaining legal life even if longer than eight years",
+        "Increase Copyright and wait until the rights expire to recognize expense",
+        "Increase Copyright and amortize it over eight years"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Increase Trademark and do not amortize it",
+        "Increase Trademark and amortize it over an estimated five-year period",
+        "Increase Trademark and expense the entire purchase price this year"
+      ],
+      "salt": "intangible-answer-order:trademark",
+      "output": [
+        "Increase Trademark and amortize it over an estimated five-year period",
+        "Increase Trademark and expense the entire purchase price this year",
+        "Increase Trademark and do not amortize it"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Increase Franchise and amortize it over ten years",
+        "Increase Franchise and amortize it over a period based on expected renewals beyond ten years",
+        "Increase current expense for the full payment because the agreement requires annual fees"
+      ],
+      "salt": "intangible-answer-order:franchise_purchase",
+      "output": [
+        "Increase Franchise and amortize it over a period based on expected renewals beyond ten years",
+        "Increase Franchise and amortize it over ten years",
+        "Increase current expense for the full payment because the agreement requires annual fees"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Increase operating expense for the current year",
+        "Increase Franchise and spread the fee over the remaining contract",
+        "Increase a prepaid asset and spread the fee over future contract years"
+      ],
+      "salt": "intangible-answer-order:franchise_annual_fee",
+      "output": [
+        "Increase Franchise and spread the fee over the remaining contract",
+        "Increase a prepaid asset and spread the fee over future contract years",
+        "Increase operating expense for the current year"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Increase Goodwill and do not routinely amortize it",
+        "Allocate the difference to identifiable assets without evidence of higher fair values",
+        "Increase current acquisition expense for the full difference"
+      ],
+      "salt": "intangible-answer-order:goodwill",
+      "output": [
+        "Allocate the difference to identifiable assets without evidence of higher fair values",
+        "Increase Goodwill and do not routinely amortize it",
+        "Increase current acquisition expense for the full difference"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Increase Research and Development Expense",
+        "Increase an internally developed Patent asset",
+        "Increase a development asset until commercial success is known"
+      ],
+      "salt": "intangible-answer-order:research_development",
+      "output": [
+        "Increase Research and Development Expense",
+        "Increase a development asset until commercial success is known",
+        "Increase an internally developed Patent asset"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Show property, plant, and equipment net of accumulated depreciation and show intangible assets separately",
+        "Show a single long-lived-assets total and explain the mix of assets in the notes",
+        "Show property, plant, and equipment at original cost and include accumulated depreciation with intangible assets"
+      ],
+      "salt": "analysis-answer-order:presentation",
+      "output": [
+        "Show a single long-lived-assets total and explain the mix of assets in the notes",
+        "Show property, plant, and equipment at original cost and include accumulated depreciation with intangible assets",
+        "Show property, plant, and equipment net of accumulated depreciation and show intangible assets separately"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Major asset classes, accumulated depreciation, methods used, and depreciation and amortization expense",
+        "Major asset classes and current-year asset purchases, without the allocation methods or related expense",
+        "Asset replacement plans and estimated selling prices, without cost-allocation methods"
+      ],
+      "salt": "analysis-answer-order:disclosures",
+      "output": [
+        "Major asset classes, accumulated depreciation, methods used, and depreciation and amortization expense",
+        "Asset replacement plans and estimated selling prices, without cost-allocation methods",
+        "Major asset classes and current-year asset purchases, without the allocation methods or related expense"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Keep existing attractions busy enough to generate high sales volume despite a thinner margin",
+        "Accept fewer customer visits and rely on higher profit per sale to replace the lost volume",
+        "Add more attractions before demand grows so the company has a larger asset base"
+      ],
+      "salt": "analysis-answer-order:same_roa",
+      "output": [
+        "Accept fewer customer visits and rely on higher profit per sale to replace the lost volume",
+        "Keep existing attractions busy enough to generate high sales volume despite a thinner margin",
+        "Add more attractions before demand grows so the company has a larger asset base"
+      ]
+    },
+    {
+      "seed": "42",
+      "input": [
+        "Whether added profit eventually offsets the larger average asset base",
+        "Whether visitor sales rise after launch, even if the added expenses outpace those sales",
+        "Whether the new attraction earns a profit, without comparing that profit with the larger investment"
+      ],
+      "salt": "analysis-answer-order:improve_roa",
+      "output": [
+        "Whether visitor sales rise after launch, even if the added expenses outpace those sales",
+        "Whether the new attraction earns a profit, without comparing that profit with the larger investment",
+        "Whether added profit eventually offsets the larger average asset base"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+        "Land increases $6,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+        "Land increases $11,000; Cash decreases $11,000; Property Taxes Payable is unchanged"
+      ],
+      "salt": "acquisition-answer-order:site_closing",
+      "output": [
+        "Land increases $6,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+        "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+        "Land increases $11,000; Cash decreases $11,000; Property Taxes Payable is unchanged"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Land Improvements",
+        "Land",
+        "Building"
+      ],
+      "salt": "acquisition-answer-order:parking_lot",
+      "output": [
+        "Building",
+        "Land",
+        "Land Improvements"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "$94,000: price, sales tax, freight, installation, and testing",
+        "$89,000: price, sales tax, and freight",
+        "$87,000: price and sales tax"
+      ],
+      "salt": "acquisition-answer-order:equipment_ready",
+      "output": [
+        "$89,000: price, sales tax, and freight",
+        "$94,000: price, sales tax, freight, installation, and testing",
+        "$87,000: price and sales tax"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Increase Training Expense",
+        "Increase Equipment"
+      ],
+      "salt": "acquisition-answer-order:staff_training",
+      "output": [
+        "Increase Equipment",
+        "Increase Training Expense"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:van_tuneup",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:climbing_system",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:building_paint",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:party_room",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Book value reflects allocated historical cost, while the dealer estimates a selling price",
+        "Book value reflects cash set aside for a replacement, while the dealer estimates a selling price",
+        "Book value reflects this year's operating cash flow, while the dealer estimates a selling price"
+      ],
+      "salt": "depreciation-answer-order:allocation_not_value",
+      "output": [
+        "Book value reflects cash set aside for a replacement, while the dealer estimates a selling price",
+        "Book value reflects this year's operating cash flow, while the dealer estimates a selling price",
+        "Book value reflects allocated historical cost, while the dealer estimates a selling price"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Depreciation Expense increases; Accumulated Depreciation increases; net income and total assets decrease",
+        "Depreciation Expense increases; Equipment cost decreases; net income and total assets decrease",
+        "Depreciation Expense increases; Accumulated Depreciation increases; Cash decreases"
+      ],
+      "salt": "depreciation-answer-order:annual_effects",
+      "output": [
+        "Depreciation Expense increases; Equipment cost decreases; net income and total assets decrease",
+        "Depreciation Expense increases; Accumulated Depreciation increases; net income and total assets decrease",
+        "Depreciation Expense increases; Accumulated Depreciation increases; Cash decreases"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Depreciate the building; leave Land at historical cost",
+        "Depreciate both over the building's useful life",
+        "Depreciate Land but leave Building at historical cost"
+      ],
+      "salt": "depreciation-answer-order:land_exception",
+      "output": [
+        "Depreciate both over the building's useful life",
+        "Depreciate Land but leave Building at historical cost",
+        "Depreciate the building; leave Land at historical cost"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "The $20,750 van leaves the balance sheet; $18,000 Cash replaces part of its book value",
+        "The $50,000 original cost leaves the balance sheet; the related depreciation stays on the balance sheet",
+        "The $18,000 Cash replaces the van; the difference is reported as additional depreciation expense"
+      ],
+      "salt": "disposal-answer-order:sale_comparison",
+      "output": [
+        "The $18,000 Cash replaces the van; the difference is reported as additional depreciation expense",
+        "The $50,000 original cost leaves the balance sheet; the related depreciation stays on the balance sheet",
+        "The $20,750 van leaves the balance sheet; $18,000 Cash replaces part of its book value"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Equipment and related Accumulated Depreciation each decrease $20,000; no gain or loss",
+        "Equipment decreases $20,000; Accumulated Depreciation stays; a loss increases $20,000",
+        "Equipment and related Accumulated Depreciation each decrease $20,000; a loss increases $20,000"
+      ],
+      "salt": "disposal-answer-order:retirement",
+      "output": [
+        "Equipment and related Accumulated Depreciation each decrease $20,000; no gain or loss",
+        "Equipment and related Accumulated Depreciation each decrease $20,000; a loss increases $20,000",
+        "Equipment decreases $20,000; Accumulated Depreciation stays; a loss increases $20,000"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Increase Patent to $72,000 before later amortization",
+        "Leave Patent at $60,000 and increase current legal expense $12,000",
+        "Increase Goodwill $12,000 and leave Patent at $60,000"
+      ],
+      "salt": "intangible-answer-order:patent_defense",
+      "output": [
+        "Increase Goodwill $12,000 and leave Patent at $60,000",
+        "Increase Patent to $72,000 before later amortization",
+        "Leave Patent at $60,000 and increase current legal expense $12,000"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Increase Copyright and amortize it over eight years",
+        "Increase Copyright and amortize it over its remaining legal life even if longer than eight years",
+        "Increase Copyright and wait until the rights expire to recognize expense"
+      ],
+      "salt": "intangible-answer-order:copyright",
+      "output": [
+        "Increase Copyright and amortize it over its remaining legal life even if longer than eight years",
+        "Increase Copyright and wait until the rights expire to recognize expense",
+        "Increase Copyright and amortize it over eight years"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Increase Trademark and do not amortize it",
+        "Increase Trademark and amortize it over an estimated five-year period",
+        "Increase Trademark and expense the entire purchase price this year"
+      ],
+      "salt": "intangible-answer-order:trademark",
+      "output": [
+        "Increase Trademark and amortize it over an estimated five-year period",
+        "Increase Trademark and expense the entire purchase price this year",
+        "Increase Trademark and do not amortize it"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Increase Franchise and amortize it over ten years",
+        "Increase Franchise and amortize it over a period based on expected renewals beyond ten years",
+        "Increase current expense for the full payment because the agreement requires annual fees"
+      ],
+      "salt": "intangible-answer-order:franchise_purchase",
+      "output": [
+        "Increase Franchise and amortize it over a period based on expected renewals beyond ten years",
+        "Increase current expense for the full payment because the agreement requires annual fees",
+        "Increase Franchise and amortize it over ten years"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Increase operating expense for the current year",
+        "Increase Franchise and spread the fee over the remaining contract",
+        "Increase a prepaid asset and spread the fee over future contract years"
+      ],
+      "salt": "intangible-answer-order:franchise_annual_fee",
+      "output": [
+        "Increase Franchise and spread the fee over the remaining contract",
+        "Increase operating expense for the current year",
+        "Increase a prepaid asset and spread the fee over future contract years"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Increase Goodwill and do not routinely amortize it",
+        "Allocate the difference to identifiable assets without evidence of higher fair values",
+        "Increase current acquisition expense for the full difference"
+      ],
+      "salt": "intangible-answer-order:goodwill",
+      "output": [
+        "Allocate the difference to identifiable assets without evidence of higher fair values",
+        "Increase Goodwill and do not routinely amortize it",
+        "Increase current acquisition expense for the full difference"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Increase Research and Development Expense",
+        "Increase an internally developed Patent asset",
+        "Increase a development asset until commercial success is known"
+      ],
+      "salt": "intangible-answer-order:research_development",
+      "output": [
+        "Increase an internally developed Patent asset",
+        "Increase a development asset until commercial success is known",
+        "Increase Research and Development Expense"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Show property, plant, and equipment net of accumulated depreciation and show intangible assets separately",
+        "Show a single long-lived-assets total and explain the mix of assets in the notes",
+        "Show property, plant, and equipment at original cost and include accumulated depreciation with intangible assets"
+      ],
+      "salt": "analysis-answer-order:presentation",
+      "output": [
+        "Show property, plant, and equipment at original cost and include accumulated depreciation with intangible assets",
+        "Show a single long-lived-assets total and explain the mix of assets in the notes",
+        "Show property, plant, and equipment net of accumulated depreciation and show intangible assets separately"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Major asset classes, accumulated depreciation, methods used, and depreciation and amortization expense",
+        "Major asset classes and current-year asset purchases, without the allocation methods or related expense",
+        "Asset replacement plans and estimated selling prices, without cost-allocation methods"
+      ],
+      "salt": "analysis-answer-order:disclosures",
+      "output": [
+        "Major asset classes and current-year asset purchases, without the allocation methods or related expense",
+        "Asset replacement plans and estimated selling prices, without cost-allocation methods",
+        "Major asset classes, accumulated depreciation, methods used, and depreciation and amortization expense"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Keep existing attractions busy enough to generate high sales volume despite a thinner margin",
+        "Accept fewer customer visits and rely on higher profit per sale to replace the lost volume",
+        "Add more attractions before demand grows so the company has a larger asset base"
+      ],
+      "salt": "analysis-answer-order:same_roa",
+      "output": [
+        "Add more attractions before demand grows so the company has a larger asset base",
+        "Accept fewer customer visits and rely on higher profit per sale to replace the lost volume",
+        "Keep existing attractions busy enough to generate high sales volume despite a thinner margin"
+      ]
+    },
+    {
+      "seed": "9007199254740993",
+      "input": [
+        "Whether added profit eventually offsets the larger average asset base",
+        "Whether visitor sales rise after launch, even if the added expenses outpace those sales",
+        "Whether the new attraction earns a profit, without comparing that profit with the larger investment"
+      ],
+      "salt": "analysis-answer-order:improve_roa",
+      "output": [
+        "Whether the new attraction earns a profit, without comparing that profit with the larger investment",
+        "Whether added profit eventually offsets the larger average asset base",
+        "Whether visitor sales rise after launch, even if the added expenses outpace those sales"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+        "Land increases $6,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+        "Land increases $11,000; Cash decreases $11,000; Property Taxes Payable is unchanged"
+      ],
+      "salt": "acquisition-answer-order:site_closing",
+      "output": [
+        "Land increases $11,000; Cash decreases $11,000; Property Taxes Payable is unchanged",
+        "Land increases $6,000; Cash decreases $6,000; Property Taxes Payable increases $5,000",
+        "Land increases $11,000; Cash decreases $6,000; Property Taxes Payable increases $5,000"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Land Improvements",
+        "Land",
+        "Building"
+      ],
+      "salt": "acquisition-answer-order:parking_lot",
+      "output": [
+        "Land",
+        "Land Improvements",
+        "Building"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "$94,000: price, sales tax, freight, installation, and testing",
+        "$89,000: price, sales tax, and freight",
+        "$87,000: price and sales tax"
+      ],
+      "salt": "acquisition-answer-order:equipment_ready",
+      "output": [
+        "$89,000: price, sales tax, and freight",
+        "$87,000: price and sales tax",
+        "$94,000: price, sales tax, freight, installation, and testing"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Increase Training Expense",
+        "Increase Equipment"
+      ],
+      "salt": "acquisition-answer-order:staff_training",
+      "output": [
+        "Increase Equipment",
+        "Increase Training Expense"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:van_tuneup",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:climbing_system",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:building_paint",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Increase the related plant asset",
+        "Increase current-period expense"
+      ],
+      "salt": "upkeep-answer-order:party_room",
+      "output": [
+        "Increase current-period expense",
+        "Increase the related plant asset"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Book value reflects allocated historical cost, while the dealer estimates a selling price",
+        "Book value reflects cash set aside for a replacement, while the dealer estimates a selling price",
+        "Book value reflects this year's operating cash flow, while the dealer estimates a selling price"
+      ],
+      "salt": "depreciation-answer-order:allocation_not_value",
+      "output": [
+        "Book value reflects this year's operating cash flow, while the dealer estimates a selling price",
+        "Book value reflects allocated historical cost, while the dealer estimates a selling price",
+        "Book value reflects cash set aside for a replacement, while the dealer estimates a selling price"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Depreciation Expense increases; Accumulated Depreciation increases; net income and total assets decrease",
+        "Depreciation Expense increases; Equipment cost decreases; net income and total assets decrease",
+        "Depreciation Expense increases; Accumulated Depreciation increases; Cash decreases"
+      ],
+      "salt": "depreciation-answer-order:annual_effects",
+      "output": [
+        "Depreciation Expense increases; Equipment cost decreases; net income and total assets decrease",
+        "Depreciation Expense increases; Accumulated Depreciation increases; net income and total assets decrease",
+        "Depreciation Expense increases; Accumulated Depreciation increases; Cash decreases"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Depreciate the building; leave Land at historical cost",
+        "Depreciate both over the building's useful life",
+        "Depreciate Land but leave Building at historical cost"
+      ],
+      "salt": "depreciation-answer-order:land_exception",
+      "output": [
+        "Depreciate both over the building's useful life",
+        "Depreciate Land but leave Building at historical cost",
+        "Depreciate the building; leave Land at historical cost"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "The $20,750 van leaves the balance sheet; $18,000 Cash replaces part of its book value",
+        "The $50,000 original cost leaves the balance sheet; the related depreciation stays on the balance sheet",
+        "The $18,000 Cash replaces the van; the difference is reported as additional depreciation expense"
+      ],
+      "salt": "disposal-answer-order:sale_comparison",
+      "output": [
+        "The $50,000 original cost leaves the balance sheet; the related depreciation stays on the balance sheet",
+        "The $18,000 Cash replaces the van; the difference is reported as additional depreciation expense",
+        "The $20,750 van leaves the balance sheet; $18,000 Cash replaces part of its book value"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Equipment and related Accumulated Depreciation each decrease $20,000; no gain or loss",
+        "Equipment decreases $20,000; Accumulated Depreciation stays; a loss increases $20,000",
+        "Equipment and related Accumulated Depreciation each decrease $20,000; a loss increases $20,000"
+      ],
+      "salt": "disposal-answer-order:retirement",
+      "output": [
+        "Equipment and related Accumulated Depreciation each decrease $20,000; no gain or loss",
+        "Equipment and related Accumulated Depreciation each decrease $20,000; a loss increases $20,000",
+        "Equipment decreases $20,000; Accumulated Depreciation stays; a loss increases $20,000"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Increase Patent to $72,000 before later amortization",
+        "Leave Patent at $60,000 and increase current legal expense $12,000",
+        "Increase Goodwill $12,000 and leave Patent at $60,000"
+      ],
+      "salt": "intangible-answer-order:patent_defense",
+      "output": [
+        "Increase Patent to $72,000 before later amortization",
+        "Increase Goodwill $12,000 and leave Patent at $60,000",
+        "Leave Patent at $60,000 and increase current legal expense $12,000"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Increase Copyright and amortize it over eight years",
+        "Increase Copyright and amortize it over its remaining legal life even if longer than eight years",
+        "Increase Copyright and wait until the rights expire to recognize expense"
+      ],
+      "salt": "intangible-answer-order:copyright",
+      "output": [
+        "Increase Copyright and amortize it over its remaining legal life even if longer than eight years",
+        "Increase Copyright and wait until the rights expire to recognize expense",
+        "Increase Copyright and amortize it over eight years"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Increase Trademark and do not amortize it",
+        "Increase Trademark and amortize it over an estimated five-year period",
+        "Increase Trademark and expense the entire purchase price this year"
+      ],
+      "salt": "intangible-answer-order:trademark",
+      "output": [
+        "Increase Trademark and amortize it over an estimated five-year period",
+        "Increase Trademark and do not amortize it",
+        "Increase Trademark and expense the entire purchase price this year"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Increase Franchise and amortize it over ten years",
+        "Increase Franchise and amortize it over a period based on expected renewals beyond ten years",
+        "Increase current expense for the full payment because the agreement requires annual fees"
+      ],
+      "salt": "intangible-answer-order:franchise_purchase",
+      "output": [
+        "Increase Franchise and amortize it over a period based on expected renewals beyond ten years",
+        "Increase current expense for the full payment because the agreement requires annual fees",
+        "Increase Franchise and amortize it over ten years"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Increase operating expense for the current year",
+        "Increase Franchise and spread the fee over the remaining contract",
+        "Increase a prepaid asset and spread the fee over future contract years"
+      ],
+      "salt": "intangible-answer-order:franchise_annual_fee",
+      "output": [
+        "Increase operating expense for the current year",
+        "Increase a prepaid asset and spread the fee over future contract years",
+        "Increase Franchise and spread the fee over the remaining contract"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Increase Goodwill and do not routinely amortize it",
+        "Allocate the difference to identifiable assets without evidence of higher fair values",
+        "Increase current acquisition expense for the full difference"
+      ],
+      "salt": "intangible-answer-order:goodwill",
+      "output": [
+        "Allocate the difference to identifiable assets without evidence of higher fair values",
+        "Increase current acquisition expense for the full difference",
+        "Increase Goodwill and do not routinely amortize it"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Increase Research and Development Expense",
+        "Increase an internally developed Patent asset",
+        "Increase a development asset until commercial success is known"
+      ],
+      "salt": "intangible-answer-order:research_development",
+      "output": [
+        "Increase an internally developed Patent asset",
+        "Increase a development asset until commercial success is known",
+        "Increase Research and Development Expense"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Show property, plant, and equipment net of accumulated depreciation and show intangible assets separately",
+        "Show a single long-lived-assets total and explain the mix of assets in the notes",
+        "Show property, plant, and equipment at original cost and include accumulated depreciation with intangible assets"
+      ],
+      "salt": "analysis-answer-order:presentation",
+      "output": [
+        "Show property, plant, and equipment at original cost and include accumulated depreciation with intangible assets",
+        "Show a single long-lived-assets total and explain the mix of assets in the notes",
+        "Show property, plant, and equipment net of accumulated depreciation and show intangible assets separately"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Major asset classes, accumulated depreciation, methods used, and depreciation and amortization expense",
+        "Major asset classes and current-year asset purchases, without the allocation methods or related expense",
+        "Asset replacement plans and estimated selling prices, without cost-allocation methods"
+      ],
+      "salt": "analysis-answer-order:disclosures",
+      "output": [
+        "Major asset classes and current-year asset purchases, without the allocation methods or related expense",
+        "Asset replacement plans and estimated selling prices, without cost-allocation methods",
+        "Major asset classes, accumulated depreciation, methods used, and depreciation and amortization expense"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Keep existing attractions busy enough to generate high sales volume despite a thinner margin",
+        "Accept fewer customer visits and rely on higher profit per sale to replace the lost volume",
+        "Add more attractions before demand grows so the company has a larger asset base"
+      ],
+      "salt": "analysis-answer-order:same_roa",
+      "output": [
+        "Add more attractions before demand grows so the company has a larger asset base",
+        "Accept fewer customer visits and rely on higher profit per sale to replace the lost volume",
+        "Keep existing attractions busy enough to generate high sales volume despite a thinner margin"
+      ]
+    },
+    {
+      "seed": "9223372036854775807",
+      "input": [
+        "Whether added profit eventually offsets the larger average asset base",
+        "Whether visitor sales rise after launch, even if the added expenses outpace those sales",
+        "Whether the new attraction earns a profit, without comparing that profit with the larger investment"
+      ],
+      "salt": "analysis-answer-order:improve_roa",
+      "output": [
+        "Whether added profit eventually offsets the larger average asset base",
+        "Whether the new attraction earns a profit, without comparing that profit with the larger investment",
+        "Whether visitor sales rise after launch, even if the added expenses outpace those sales"
+      ]
+    }
+  ]
+}
